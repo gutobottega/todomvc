@@ -117,7 +117,7 @@ describe('TodoMVC', function () {
       .type('todo C{enter}') // and keep adding new items
       .type('todo D{enter}')
 
-      cy.get('.todo-list li').should('have.length', 4)
+      cy.get('.todo-list li').should('have.length', 5)
     })
 
     it('should clear text input field when an item is added', function () {
