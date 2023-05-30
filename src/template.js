@@ -77,6 +77,6 @@ export default class Template {
 	 * @returns {string} String containing the count
 	 */
 	clearCompletedButton(completedTodos){
-		return (completedTodos > 0) ? 'Clear completed!' : '';
+		return (completedTodos > 0) ? 'Clear completed' : '';
 	}
 }
